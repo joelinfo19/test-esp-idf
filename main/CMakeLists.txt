@@ -1,3 +1,3 @@
-idf_component_register(SRCS "blink.c" "../components/testable/include/testable.h"
+idf_component_register(SRCS "blink.c" 
                     INCLUDE_DIRS "."
                     )
