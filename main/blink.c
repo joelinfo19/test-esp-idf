@@ -35,12 +35,12 @@ void app_main()
 	printf("Turning off the LED %i \n", test(0));
         gpio_set_level(BLINK_GPIO, 0);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
-        printf("no\n");
 
       //   Blink on (output high)
 	printf("Turning on the LED %i \n",test(1));
         gpio_set_level(BLINK_GPIO, 1);
         vTaskDelay(1000 / portTICK_PERIOD_MS);
+        printf("this is a test");
     }
 
 
